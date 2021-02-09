@@ -2,15 +2,28 @@ import React from 'react';
 
 
 export default function Header(props) {
+    const {countCartItems} = props;
     return (
-        <header>
+        <header className="row block center">
             <div>
                 <a href="#/">
-                    <h1>Shopping Cart</h1>
+                    <h1> Small Shopping Cart</h1>
                 </a>
             </div>
 <div>
-            <a href="#/cart">CArt</a>
+            <a href="#/cart">
+                
+                
+                CArt { ''}
+                {countCartItems? (
+                    <button className="badge">{countCartItems}</button>
+                ) : (
+                    ''
+                )
+                }
+                
+                
+                </a> {' '}
             <a href="#/signin">SignIn</a>
          </div>
         </header>
