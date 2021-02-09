@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-export default function Header(props) {
+export default function Main(props) {
     return (
         <header>
             <div>
