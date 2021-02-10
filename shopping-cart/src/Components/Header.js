@@ -10,14 +10,14 @@ export default function Header(props) {
       </div>
       <div>
         <a href="#/cart">
-          Cart{' '}
+          CART{' '}
           {props.countCartItems ? (
             <button className="badge">{props.countCartItems}</button>
           ) : (
             ''
           )}
         </a>{' '}
-        <a href="#/signin"> SignIn</a>
+        <a href="#/kuhle@gmail.com "> kuhle@gmail.com</a>
       </div>
     </header>
   );
