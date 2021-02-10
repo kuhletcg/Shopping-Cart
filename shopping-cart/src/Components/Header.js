@@ -5,7 +5,7 @@ export default function Header(props) {
     <header className="block row center">
       <div>
         <a href="#/">
-          <h1>Small Shopping Cart</h1>
+          <h1>SHOPPING CART</h1>
         </a>
       </div>
       <div>
@@ -22,35 +22,3 @@ export default function Header(props) {
     </header>
   );
 }
-
-// import React from 'react';
-
-
-// export default function Header(props) {
-//     const {countCartItems} = props;
-//     return (
-//         <header className="row block center">
-//             <div>
-//                 <a href="#/">
-//                     <h1> Small Shopping Cart</h1>
-//                 </a>
-//             </div>
-// <div>
-//             <a href="#/cart">
-                
-                
-//                 CArt { ''}
-//                 {countCartItems? (
-//                     <button className="badge">{countCartItems}</button>
-//                 ) : (
-//                     ''
-//                 )
-//                 }
-                
-                
-//                 </a> {' '}
-//             <a href="#/signin">SignIn</a>
-//          </div>
-//         </header>
-//     );
-// }
