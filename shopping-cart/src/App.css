@@ -1,5 +1,6 @@
 body {
   font-family: "Helvetica";
+  background-color: green;
 }
 h1,
 h2,
@@ -33,11 +34,11 @@ h3 {
 a {
   text-decoration: none;
 }
-.row {
+.column {
   display: flex;
   justify-content: space-between;
 }
-.row.center {
+.column.center {
   align-items: center;
 }
 .col-1 {
@@ -63,6 +64,7 @@ img {
   width: 400px;
   height: auto;
   border-radius: 10%;
+  border: 5px solid #404040;
 }
 
 .grid-container {
