@@ -6,7 +6,7 @@ import data from './Components/data';
 import { useState } from 'react';
 function App() {
   const { products } = data;
-  console.log (products)  
+  
   const [cartItems, setCartItems] = useState([]);
   const onAdd = (product) => {
     const exist = cartItems.find((x) => x.id === product.id);
