@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 export default function Basket(props) {
@@ -13,7 +12,7 @@ export default function Basket(props) {
       <div>
         {cartItems.length === 0 && <div>No items selected</div>}
         {cartItems.map((item) => (
-          <div key={item.id} className="row">
+          <div key={item.id} className="column">
             <div className="col-2">{item.name}</div>
             <div className="col-2">
               <button onClick={() => onRemove(item)} className="remove">
@@ -33,22 +32,22 @@ export default function Basket(props) {
         {cartItems.length !== 0 && (
           <>
             <hr></hr>
-            <div className="row">
+            <div className="column">
               <div className="col-2">Items Price</div>
               <div className="col-1 text-right">R{itemsPrice.toFixed(2)}</div>
             </div>
-            <div className="row">
+            <div className="column">
               <div className="col-2">Tax Price</div>
               <div className="col-1 text-right">R{taxPrice.toFixed(2)}</div>
             </div>
-            <div className="row">
+            <div className="column">
               <div className="col-2">Shipping Price</div>
               <div className="col-1 text-right">
                 R{shippingPrice.toFixed(2)}
               </div>
             </div>
 
-            <div className="row">
+            <div className="column">
               <div className="col-2">
                 <strong>Total Price</strong>
               </div>
@@ -57,7 +56,7 @@ export default function Basket(props) {
               </div>
             </div>
             <hr />
-            <div className="row">
+            <div className="column">
               <button onClick={() => alert('Implement Checkout!')}>
                 CHECKOUT
               </button>
