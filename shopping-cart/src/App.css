@@ -7,14 +7,27 @@ h3 {
   margin: 0.5rem 0;
 }
 h1 {
-  font-size: 1.5rem;
+  font-size: 38px;
+  color: black;
+  background-color: aqua;
+  font-family: "Titillium Web", sans-serif;
+  text-align: center;
 }
 h2 {
   font-size: 1.2rem;
+  font-size: 38px;
+  color: red;
+  background-color: aqua;
+  font-family: "Titillium Web", sans-serif;
 }
 h3 {
-  font-size: 1rem;
+  /* font-size: 38px; */
+  color: red;
+  background-color: aqua;
+  font-family: "Titillium Web", sans-serif;
 }
+font-size: 1rem;
+
 a {
   text-decoration: none;
 }
@@ -32,7 +45,7 @@ a {
   flex: 2;
 }
 .block {
-  background-color: #e0e0e0;
+  background-color: aqua;
   padding: 1rem;
   margin: 0.5rem;
   border-radius: 0.5rem;
@@ -49,12 +62,12 @@ button {
   margin: 0.1rem;
   border-radius: 0.5rem;
   border: 0.1rem #404040 solid;
-  background-color: #f0c040;
+  background-color: red;
   width: 100%;
   cursor: pointer;
 }
 button.add {
-  background-color: #40c0f0;
+  background-color: greenyellow;
   width: 1.5rem;
 }
 button.remove {
