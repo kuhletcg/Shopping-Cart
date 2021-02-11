@@ -75,6 +75,18 @@ img {
   width: 30vh;
   height: 35vh;
 }
+.ladies-short > img {
+  width: 30vh;
+  height: 35;
+}
+.duvet-cover > img {
+  width: 30vh;
+  height: 35vh;
+}
+.chest of drawer > img {
+  width: 30vh;
+  height: auto;
+}
 button {
   font-size: 0.8rem;
   border-radius: 0.5rem;
@@ -100,4 +112,8 @@ button.badge {
   border: none;
   color: #ffffff;
   width: 1.5rem;
+}
+
+.row {
+  display: flex;
 }

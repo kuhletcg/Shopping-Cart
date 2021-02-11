@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Header(props) {
   return (
-    <header className="block row center">
+    <header className="block column center">
       <div>
         <a href="#/">
           <h1>SHOPPING CART</h1>
